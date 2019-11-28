@@ -9,7 +9,7 @@ namespace WebApplication1.Controllers
     public class OmdaTestController : Controller
     {
         // GET: OmdaTest
-        public ActionResult Index222()
+        public ActionResult Index()
         {
             return View();
         }
@@ -99,7 +99,7 @@ namespace WebApplication1.Controllers
             }
         }
 
-        public ActionResult Koko()
+        public ActionResult Kokololo()
         {
             return View();
         }
