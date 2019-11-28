@@ -15,7 +15,7 @@ namespace WebApplication1.Controllers
         }
 
         // GET: OmdaTest/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details888888888888888(int id)
         {
             return View();
         }
