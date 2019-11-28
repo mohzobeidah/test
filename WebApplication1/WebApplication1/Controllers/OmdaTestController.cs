@@ -9,13 +9,13 @@ namespace WebApplication1.Controllers
     public class OmdaTestController : Controller
     {
         // GET: OmdaTest
-        public ActionResult Index()
+        public ActionResult Index222()
         {
             return View();
         }
 
         // GET: OmdaTest/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details5555555dddddddddddddddd(int id)
         {
             return View();
         }
@@ -50,7 +50,7 @@ namespace WebApplication1.Controllers
 
         // POST: OmdaTest/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit8888(int id, FormCollection collection)
         {
             try
             {
@@ -85,8 +85,19 @@ namespace WebApplication1.Controllers
                 return View();
             }
         }
+        public ActionResult Delete22(int id, FormCollection collection)
+        {
+            try
+            {
+                // TODO: Add delete logic here
 
-
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
 
         public ActionResult Koko()
         {
