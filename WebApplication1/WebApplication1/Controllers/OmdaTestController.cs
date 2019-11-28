@@ -85,8 +85,19 @@ namespace WebApplication1.Controllers
                 return View();
             }
         }
+        public ActionResult Delete22(int id, FormCollection collection)
+        {
+            try
+            {
+                // TODO: Add delete logic here
 
-
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
 
         public ActionResult Koko()
         {
