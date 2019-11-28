@@ -98,5 +98,10 @@ namespace WebApplication1.Controllers
                 return View();
             }
         }
+
+        public ActionResult Koko()
+        {
+            return View();
+        }
     }
 }
