@@ -50,7 +50,7 @@ namespace WebApplication1.Controllers
 
         // POST: OmdaTest/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit8888(int id, FormCollection collection)
         {
             try
             {
